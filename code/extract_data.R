@@ -17,6 +17,7 @@ package.check <- lapply(
 
 ## Set the working directory
 setwd(here())
+# working directory for my project
 
 ## Read in data
 data <- read_ipums_ddi("filename")
